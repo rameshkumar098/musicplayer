@@ -6,14 +6,16 @@ body {
     justify-content: center;
   }
   .player {
-    width: 800px;
-    height: 529px;
-    background: black;
+    width: 950px;
+    height: 650px;
+    background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?cs=srgb&dl=pexels-daniel-reche-3721941.jpg&fm=jpgss);
+    background-size: cover;
+    background-repeat: no-repeats;
     box-shadow: 0px 24px 54px -12px #5e6178;
     position: absolute;
-    left: 50%;
+    left: 45%;
     transform: translateX(-400px);
-    top: 20%;
+    top: 10%;
   }
   .player .cover {
     width: 230px;
@@ -53,7 +55,7 @@ body {
     width: 100%;
     background-color:white;
     position: absolute;
-    top: 400px;
+    top: 504px;
   }
   .player .playtime {
     background-color: rgba(114,230,207,0.3);
@@ -64,8 +66,8 @@ body {
   }
   .player .played {
     background-color:white;
-    height: 5px;
-    width: 300px;
+    height: 0px;
+    width: 350px;
     position: absolute;
     bottom: 0px;
   }
